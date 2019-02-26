@@ -3,7 +3,6 @@
 require("dotenv").config();
 const mysql = require("mysql");
 
-var connection;
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL)
 } else {
@@ -16,13 +15,7 @@ if (process.env.JAWSDB_URL) {
     });
 };
 
-connection.connect((err) => {
-    if (err) {
-        console.error("error connecting: " + err.stack);
-        return;
-    }
-    console.log("CONNECTION: " + connection.threadId);
-});
+connection.connect();
 
 // Export Config (MySQL)
 // =============================================================
