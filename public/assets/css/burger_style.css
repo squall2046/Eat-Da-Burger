@@ -143,11 +143,11 @@ label {
     margin: 0 40px 0;
     overflow: hidden;
 }
-#devour {
+.devour {
     position: absolute;
     right: 5%;
     float: right;
-    font-size: 10px;
+    font-size: 10px !important;
     padding: 5px;
 }
 
