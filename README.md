@@ -10,8 +10,9 @@
 
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the left side of the page.
 
-Eat-Da-Burger! built with Node.js and Express.js
 ![concert](./public/assets/img/scn.png)
+
+Eat-Da-Burger! built with Node.js and Express.js
 
 
 ## Author
