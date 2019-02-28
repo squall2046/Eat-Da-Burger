@@ -38,7 +38,7 @@ $(function () {
   //////////////// update burger condition from noDevour/devoured list to devoured/noDevour list ////////////////
   $(".devour").on("click", function (event) {
     var id = $(this).data("id");
-    console.log(id);
+    console.log("id is: ", id);
 
     var newState = {
       devoured: true
