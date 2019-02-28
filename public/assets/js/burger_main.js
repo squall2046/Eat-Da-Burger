@@ -17,7 +17,7 @@ $(function () {
       Swal.fire({
         // background: '#fff url("/assets/img/burger-load.gif")',
         text: 'What burger would you like to have?',
-        // title: "Hi!!",
+        title: "Before Submit...",
         animation: false,
         imageUrl: '/assets/img/burger-load.gif',
         imageWidth: 100,
